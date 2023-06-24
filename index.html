@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Passenger counter</title>
+</head>
+<body>
+  <div id="container">
+    <h2>New passengers:</h2>
+      <p id="new-count">0</p>
+      <button id="increment-btn" class="increment-btn" onclick="incrementNew()">INCREMENT</button>
+      <button id="save-increment-btn" onclick="saveNew()">SAVE</button>
+      <button id="decrement1" class="decrement-btn" onclick="decrementNew()">DECREMENT</button>
+      <p id="previous-entries">Previous entries: </p>
+    <h2>Departing passengers:</h2>
+      <p id="departing-count">0</p>
+      <button id="departing-btn" class="increment-btn" onclick="incrementDeparting()">INCREMENT</button>
+      <button id="save-departing-btn" onclick="saveDeparting()">SAVE</button>
+      <button id="decrement2" class="decrement-btn" onclick="decrementDeparting()">DECREMENT</button>
+      <p id="previous-exits">Previous exits: </p>
+    <h2>Passengers in bus:</h2>
+      <p id="total-passengers">0</p>
+  </div>
+  <footer>
+    <p>Image by <a href="https://www.freepik.com/free-photo/young-french-man-waiting-station-bus-talking-smartphone_25002503.htm">Freepik</a></p>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
